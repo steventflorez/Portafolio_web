@@ -10,6 +10,8 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     />
 
+    
+
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
@@ -26,8 +28,61 @@
 
    
   </head>
-  <body class="Cont" data-bs-target="#nav" data-bs-spy="scroll">
-    <nav id="nav" class="navbar navbar-expand-lg navbar-light position-sticky nav__menu">
+  <body >
+
+     <!-- ======= nav responsive =========-->
+
+     <section class="nav__responsive d-lg-none d-flex">
+      <div class="navigation">
+          <ul>
+              <li class="list active">
+                  <a href="#">
+                      <span class="icon">
+                          <i class="uil uil-estate"></i>
+                      </span>
+                      <span class="text">Home</span>
+                  </a>
+              </li>
+              <li class="list">
+                  <a href="#">
+                      <span class="icon">
+                          <i class="uil uil-user"></i>
+                      </span>
+                      <span class="text">Sobre mi</span>
+                  </a>
+              </li>
+              <li class="list">
+                  <a href="#">
+                      <span class="icon">
+                          <i class="uil uil-wrench"></i>
+                      </span>
+                      <span class="text">Skills</span>
+                  </a>
+              </li>
+              <li class="list">
+                  <a href="#">
+                      <span class="icon">
+                          <i class="uil uil-bag-alt"></i>
+                      </span>
+                      <span class="text">Portafolio</span>
+                  </a>
+              </li>
+              <li class="list">
+                  <a href="#">
+                      <span class="icon">
+                          <i class="uil uil-comment"></i>
+                      </span>
+                      <span class="text">Contactame</span>
+                  </a>
+              </li>
+              <div class="indictor"></div>
+          </ul>
+      </div>
+      </section>
+    
+      <!--================= nav =========================-->
+
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light position-sticky nav__menu d-md-block d-none" >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Stevent Florez</a>
         <button
@@ -62,7 +117,7 @@
     </nav>
 
     <!-- Home -->
-    <div class="container padding_section" id="home">
+    <div class="container p-t-lg-50px p-t-100px" id="home">
       <div class="row" style="height: 100%">
         <div class="col-2 col-lg-2">
           <div
@@ -139,7 +194,11 @@
         </div>
       </div>
     </div>
-    <!-- Sobre mi -->
+
+
+    <!--==================== Sobre mi ===================================-->
+
+
     <section style="height: 100% " id="sobre_mi" class="padding_section">
       <div class="container">
         <div class="titulo">
@@ -185,7 +244,11 @@
       </div>
     </section>
 
-    <!-- Skills -->
+
+
+    <!-- ========================================== Skills  =============================-->
+
+
 
     <section id="skills" class="padding_section">
       <div class="container">
@@ -298,7 +361,7 @@
       </div>
     </section>
 
-<!-- Portafolio -->
+<!-- ============================== Portafolio =============================-->
 
     <section style="height: 100%" id="portafolio" class="padding_section">
       <div class="container">
@@ -417,16 +480,16 @@
                   color-secundario
                 "
               >
-                <i class="uil uil-phone"></i>
+              <i class="uil uil-envelope icon__contact"></i>
               </div>
               <div class="col-lg-10 col-12">
-                <div>Telefono:</div>
-                <div>(+57) 322 712 0269</div>
+                <div>Correo: </div>
+                <div>steventflorez94@gmail.com</div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-12 alinear">
+          <div class="col-lg-4 col-12 alinear ">
             <div class="row">
               <div
                 class="
@@ -439,11 +502,11 @@
                   color-secundario
                 "
               >
-                <i class="uil uil-phone"></i>
+              <i class="uil uil-map-marker icon__contact"></i>
               </div>
               <div class="col-lg-10 col-12">
-                <div>Telefono:</div>
-                <div>(+57) 322 712 0269</div>
+                <div>Ubicación: </div>
+                <div>Bogota-Colombia</div>
               </div>
             </div>
           </div>
@@ -451,28 +514,72 @@
       </div>
     </section>
 
-    <footer class="btn__info" style="height: 250px;">
+    <footer class="btn__info" style="height: 250px; width: 100%;">
       <div class="container" style="padding-top: 70px;">
         <div class="row">
-          <div class="col-4 alinear">
+          <div class="col-lg-4 col-12 alinear">
             <h2>Stevent</h2>
-            <p>Developer</p>
+            <p class="texto__secundario">Developer</p>
           </div>
-          <div class="col-4 alinear">
-            <a href="#" class=" color__white" >Sobre mi</a> 
-            <a href="#" class=" color__white" style="padding-left: 30px;">Portafolio</a>
-            <a href="#" class=" color__white" style="padding-left: 30px;">Contactame</a>
+
+          <div class="col-lg-4 col-12 alinear">
+            <div class="row">
+              <div class="col-lg-4 col-4">
+                <a href="#" class=" color__white" >Sobre mi</a> 
+              </div>
+              <div class="col-lg-4 col-4">
+                <a href="#" class=" color__white" style="padding-left: 30px;">Portafolio</a>
+              </div>
+              <div class="col-lg-4 col-4">
+                <a href="#" class=" color__white" style="padding-left: 30px;">Contactame</a>
+              </div>
+            </div>
+            
+           
+            
           </div>
-          <div class="col-4 alinear">
-            <a href="#" class="icon__redes color__white" style="padding-left: 5px;"><i class="uil uil-facebook-f"></i></a>
-            <a href="#" class="icon__redes color__white" style="padding-left: 20px;"><i class="uil uil-instagram"></i></a>
-            <a href="#" class="icon__redes color__white" style="padding-left: 20px;"><i class="uil uil-github-alt"></i></a>
+
+          <hr>
+
+          <div class="col-lg-4 col-12 alinear">
+            <div class="row ">
+              <div class="col-lg-4 col-4 ">
+                <a href="#" class="icon__redes color__white " style="padding-left: 5px;"><i class="uil uil-facebook-f"></i></a>
+              </div>
+
+              <div class="col-lg-4 col-4">
+                
+                <a href="#" class="icon__redes color__white" style="padding-left: 20px;"><i class="uil uil-github-alt"></i></a>
+              </div>
+
+              <div class="col-lg-4 col-4">
+                <a href="#" class="icon__redes color__white" style="padding-left: 20px;"><i class="uil uil-instagram"></i></a>
+              </div>
+            </div>
+            
+            
+            
           </div>
         </div>
       </div>
     </footer>
 
+   
 
+
+    <script>
+      const list = document.querySelectorAll('.list');
+      function activeLink(){
+          list.forEach((item) =>
+          item.classList.remove('active'));
+          this.classList.add('active');
+      }
+
+      list.forEach((item) => 
+      item.addEventListener('click', activeLink));
+      
+  </script>
+  <script type="module" src="https://unpkg.com/"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
