@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portafolio Web</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Poppins:wght@400;500;600&family=Spline+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+   
+
+   
+  </head>
+  <body class="Cont" data-bs-target="#nav" data-bs-spy="scroll">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light position-sticky nav__menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Stevent Florez</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav__items d-flex justify-content-end">
+            <li class="nav-item">
+              <a data-scroll class="nav-link" aria-current="page"  href="#home">
+                <span class="item__nav"></span> Home</a>
+            </li>
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="#sobre_mi">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portafolio">Portafolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <div class="container padding_section" id="home">
+      <div class="row" style="height: 100%">
+        <div class="col-2 col-lg-2">
+          <div
+            class="
+              d-flex
+              flex-wrap
+              justify-content-center
+              align-content-center
+              flex-column
+            "
+            style="height: 650px"
+          >
+            <div>
+              <a href="https://github.com/steventflorez?tab=repositories" target="_blank"
+                ><i class="uil uil-github icon__redes color-secundario"></i
+              ></a>
+            </div>
+            <div>
+              <a href=""
+                ><i class="uil uil-linkedin icon__redes color-secundario"></i
+              ></a>
+            </div>
+            <div>
+              <a href=""
+                ><i
+                  class="uil uil-whatsapp-alt icon__redes color-secundario"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-9 col-lg-6">
+          <div
+            class="
+              d-flex
+              flex-wrap
+              justify-content-center
+              align-content-center
+              flex-column
+            "
+            style="height: 650px"
+          >
+            <div>
+              <h1>Hola, soy Stevent</h1>
+              <p class="texto__secundario">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                quibusdam enim ex rem qui, itaque minima delectus, mollitia nisi
+                quo similique? Quibusdam sapiente officiis aliquam nisi commodi,
+                distinctio excepturi sequi!
+              </p>
+              <button type="button" class="btn btn__info">
+                <span class="flecha">Contactame </span>
+                <i class="uil uil-message"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            col-12 col-lg-4
+            d-md-flex
+            d-none
+            flex-wrap
+            justify-content-center
+            align-content-center
+            flex-column
+          "
+          style="height: 650px;"
+        >
+          <img
+          style="width: 300px;" src="/img/foto_perfil_Mesa de trabajo 1.png " 
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Sobre mi -->
+    <section style="height: 100% " id="sobre_mi" class="padding_section">
+      <div class="container">
+        <div class="titulo">
+          <h2>Sobre mi</h2>
+          <p class="texto__secundario">Mi introducción</p>
+        </div>
+        <div class="row">
+          <div class=" col-12 col-lg-6 alinear">
+            <img
+              src="/img/foto_perfil_Mesa de trabajo 1.png" style="width: 300px;"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-lg-6 alinear">
+            <div style="margin-bottom: 50px">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
+              officia reprehenderit quo, fugit voluptatum pariatur dolor dolorem
+              sunt quod nihil odit dolores, maxime neque cum laudantium
+              doloremque laborum beatae numquam!
+            </div>
+            <div class="row">
+              <div class="col-6 alinear">
+                <h1>6+</h1>
+              </div>
+              <div class="col-6 alinear">
+                <h1>4+</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 alinear">años de experiencia</div>
+              <div class="col-6 alinear">proyectos</div>
+            </div>
+            <button
+              type="button"
+              class="btn btn__info"
+              style="margin-top: 40px; margin-bottom: 50px;"
+            >
+              <span class="flecha">Descargar HV </span>
+              <i class="uil uil-file-download"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skills" class="padding_section">
+      <div class="container">
+        <div class="titulo">
+          <h2>Skills</h2>
+          <p class="texto__secundario">Mis conocimientos</p>
+        </div>
+
+        <div>
+          <h3>Developer</h3>
+        </div>
+        <div class="d-flex" style="width: 50%; margin: auto">
+          <div class="mr-auto">HTML</div>
+          <div>90%</div>
+        </div>
+        <div style="width: 50%; margin: auto">
+          <div class="progress" style="height: 10px">
+            <div
+              class="progress-bar btn__info"
+              style="width: 90%; height: 10px"
+            ></div>
+          </div>
+        </div>
+        <br />
+        <div class="d-flex" style="width: 50%; margin: auto">
+          <div class="mr-auto">CSS</div>
+          <div>75%</div>
+        </div>
+        <div style="width: 50%; margin: auto">
+          <div class="progress" style="height: 10px">
+            <div
+              class="progress-bar btn__info"
+              style="width: 75%; height: 10px"
+            ></div>
+          </div>
+        </div>
+
+        <br />
+        <div class="d-flex" style="width: 50%; margin: auto">
+          <div class="mr-auto">JavaScript</div>
+          <div>80%</div>
+        </div>
+        <div style="width: 50%; margin: auto">
+          <div class="progress" style="height: 10px">
+            <div
+              class="progress-bar btn__info"
+              style="width: 80%; height: 10px"
+            ></div>
+          </div>
+        </div>
+
+        <br />
+        <div class="d-flex" style="width: 50%; margin: auto">
+          <div class="mr-auto">Boostrap</div>
+          <div>90%</div>
+        </div>
+        <div style="width: 50%; margin: auto">
+          <div class="progress" style="height: 10px">
+            <div
+              class="progress-bar btn__info"
+              style="width: 90%; height: 10px"
+            ></div>
+          </div>
+        </div>
+
+        <br />
+        <div class="d-flex" style="width: 50%; margin: auto">
+          <div class="mr-auto">Git-GitHub</div>
+          <div>90%</div>
+        </div>
+        <div style="width: 50%; margin: auto">
+          <div class="progress" style="height: 10px">
+            <div
+              class="progress-bar btn__info"
+              style="width: 90%; height: 10px"
+            ></div>
+          </div>
+        </div>
+        <br />
+        <div>
+          <h3>Diseño</h3>
+        </div>
+        <br />
+        <div class="d-flex" style="width: 50%; margin: auto">
+          <div class="mr-auto">Illustraitor</div>
+          <div>90%</div>
+        </div>
+        <div style="width: 50%; margin: auto">
+          <div class="progress" style="height: 10px">
+            <div
+              class="progress-bar btn__info"
+              style="width: 90%; height: 10px"
+            ></div>
+          </div>
+        </div>
+
+        <br />
+        <div class="d-flex" style="width: 50%; margin: auto">
+          <div class="mr-auto">Adobe XD</div>
+          <div>85%</div>
+        </div>
+        <div style="width: 50%; margin: auto">
+          <div class="progress" style="height: 10px">
+            <div
+              class="progress-bar btn__info"
+              style="width: 85%; height: 10px"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Portafolio -->
+
+    <section style="height: 100%" id="portafolio" class="padding_section">
+      <div class="container">
+        <div class="titulo">
+          <h2>Portafolio</h2>
+          <p class="texto__secundario">mis trabajos</p>
+        </div>
+        <div style="display: flex; justify-content: center;">
+        <div
+          id="demo"
+          class="carousel slide w-lg-50% w-100%"
+          data-ride="carousel"
+          
+        >
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="/img/barbasApp_Mesa de trabajo 1.jpg"
+                alt="Los Angeles"
+                width="1100"
+                height="500"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/img/preguntas_Mesa de trabajo 1.jpg"
+                alt="Chicago"
+                width="1100"
+                height="500"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/img/geotopo_Mesa de trabajo 1.jpg"
+                alt="New York"
+                width="1100"
+                height="500"
+              />
+              <div class="carousel-caption">
+                <h3>BarbasApp</h3>
+                <p>Una app para Barberias</p>
+                <div>
+                  <a href="">
+                    <i class="uil uil-github icon__redes"></i> Codigo</a
+                  >
+                </div>
+                <div>
+                  <a href=""> <i class="uil uil-globe">Ver proyecto</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Contactame -->
+
+    <section style="height: 650px" id="contactame">
+      <div class="container">
+        <div class="titulo">
+          <h2>Contactame</h2>
+          <p class="texto__secundario">Mi Contacto</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-12 alinear">
+            <div class="row">
+              <div
+                class="
+                  col-lg-1 col-12
+                  d-flex
+                  flex-wrap
+                  justify-content-center
+                  align-content-center
+                  flex-column
+                  color-secundario
+                "
+              >
+                <i class="uil uil-phone icon__contact"></i>
+              </div>
+              <div class="col-lg-10 col-12 ">
+                <div>Telefono:</div>
+                <div>(+57) 322 712 0269</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-12 alinear">
+            <div class="row">
+              <div
+                class="
+                  col-lg-1 col-12
+                  d-flex
+                  flex-wrap
+                  justify-content-center
+                  align-content-center
+                  flex-column
+                  color-secundario
+                "
+              >
+                <i class="uil uil-phone"></i>
+              </div>
+              <div class="col-lg-10 col-12">
+                <div>Telefono:</div>
+                <div>(+57) 322 712 0269</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-12 alinear">
+            <div class="row">
+              <div
+                class="
+                col-lg-1 col-12
+                  d-flex
+                  flex-wrap
+                  justify-content-center
+                  align-content-center
+                  flex-column
+                  color-secundario
+                "
+              >
+                <i class="uil uil-phone"></i>
+              </div>
+              <div class="col-lg-10 col-12">
+                <div>Telefono:</div>
+                <div>(+57) 322 712 0269</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="btn__info" style="height: 250px;">
+      <div class="container" style="padding-top: 70px;">
+        <div class="row">
+          <div class="col-4 alinear">
+            <h2>Stevent</h2>
+            <p>Developer</p>
+          </div>
+          <div class="col-4 alinear">
+            <a href="#" class=" color__white" >Sobre mi</a> 
+            <a href="#" class=" color__white" style="padding-left: 30px;">Portafolio</a>
+            <a href="#" class=" color__white" style="padding-left: 30px;">Contactame</a>
+          </div>
+          <div class="col-4 alinear">
+            <a href="#" class="icon__redes color__white" style="padding-left: 5px;"><i class="uil uil-facebook-f"></i></a>
+            <a href="#" class="icon__redes color__white" style="padding-left: 20px;"><i class="uil uil-instagram"></i></a>
+            <a href="#" class="icon__redes color__white" style="padding-left: 20px;"><i class="uil uil-github-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+    
+  </body>
+</html>

@@ -1,0 +1,104 @@
+
+:root{
+    --color-secundario: #4F25C0;
+    --text_btn: #fff;
+    --text_secundario: rgb(148, 148, 148);
+}
+html{
+    scroll-behavior:smooth;
+}
+
+
+body{
+
+    background-color: hsl(250, 60%, 99%) !important;
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+.cont{
+    overflow: scroll;
+    position: relative;
+}
+
+.alinear{
+    text-align: center;
+    
+}
+.padding_section{
+    padding-top: 50px;
+    
+    
+}
+
+
+.item__nav :hover{
+    color: var(--color-secundario);
+   
+}
+.color-secundario{
+    color: var(--color-secundario);
+    
+}
+.container{
+    width: auto;
+}
+img{
+    width: 200px;
+}
+.nav__menu{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.097);
+}
+
+.titulo{
+    text-align: center;
+    margin: 50px 0 ;
+
+}
+
+.color__white{
+    color: var(--text_btn);
+}
+
+
+
+.nav__items{
+    width: 100%;
+}
+
+.icon__redes{
+    font-size: 24px;
+}
+
+.btn__info{
+    background-color: var(--color-secundario) !important;
+    color: var(--text_btn) !important;
+    
+   
+}
+.flecha{
+   
+    transition-property: margin-left;
+    transition-duration: 0.5s;
+}
+
+.flecha:hover{
+    margin-left: 5px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.icon__contact{
+    font-size: 30px;
+}
+
+.texto__secundario{
+    color: var(--text_secundario);
+    font-size: 15px;
+}
