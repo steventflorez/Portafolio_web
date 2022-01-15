@@ -183,6 +183,7 @@ img{
     z-index: 1;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.097);
+    z-index: 1000;
 }
 
 .titulo{
@@ -232,4 +233,25 @@ img{
 .texto__secundario{
     color: var(--text_secundario);
     font-size: 15px;
+}
+.contacto{
+    background-color: #4F25C0;
+    color: var(--text_btn);
+    height: 80px;
+    width: 60px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.contacto:hover{
+    color: var(--text_btn);
+    background-color: green;
+    text-decoration: none;
+}
+.con-red:hover{
+    color: var(--text_btn);
+    background-color: red;
+    text-decoration: none;
 }
